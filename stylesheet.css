@@ -1,0 +1,124 @@
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+  font-family: Helvetica,sans-serif;
+  font-size: 16px;
+
+}
+
+a {
+  font-family: Helvetica,sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff99bb;
+}
+
+/* Text Classes and IDs etc. */
+#sub-header a {
+  margin-top: 3px;
+  font-weight: bold;
+  color: #ff99bb;
+  text-align: center;
+  border-right: 1px solid #737373;
+  padding-right: 18px;
+  padding-top: 3px;
+}
+
+#links-header a {
+  padding-right: 40px;
+}
+
+#about-header a {
+  padding-right: 40px
+}
+
+#main-body h3 {
+  font-family: Helvetica,sans-serif;
+  color: #ff99bb;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+#main-body p {
+  margin-left: 15px;
+}
+
+#main-body li p {
+  margin-left: 0px
+}
+
+#main-body a {
+  color: blue;
+}
+
+#main-footer a {
+  color: blue;
+  font-size: 11px;
+}
+
+#main-footer table p {
+  margin: -10px;
+  color: #2d2d2d;
+  font-size: 11px;
+}
+
+#listing {
+  text-decoration: underline;
+}
+
+/* Div Classes and IDs etc. */
+
+#main-header {
+  height: 21px;
+  width: 100%;
+  border-top: 5px solid #737373;
+  border-bottom: 1px solid #737373;
+}
+
+#sub-header {
+  height: inherit;
+  width: 7%;
+  margin-left: 5%;
+  margin-top: 3px;
+  float: left;
+}
+
+#about-header {
+  height: inherit;
+  width: auto;
+  margin-top: 3px;
+  float: left;
+}
+
+#links-header {
+  height: inherit;
+  width: auto;
+  margin-right: 2%;
+  margin-top: 3px;
+  float:right;
+}
+#main-body {
+  height: auto;
+  width: 60%;
+  height: 460px
+}
+
+#main-footer {
+  height: 10%;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid #737373;
+  padding-top: 10px;
+  clear: both;
+}
+
+#main-footer table {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 10px;
+}
